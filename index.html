@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app = "giphyApp">
+  <head>
+    <meta charset="utf-8">
+    <title>angular giphy generator</title>
+    <script src = "angular.min.js"></script>
+    <script src = "app.js"></script>
+    <link rel = "stylesheet" href = "styles.css" />
+  </head>
+  <body ng-controller = "BodyController">
+    <header>
+      <h1>Jif Grabber!</h1>
+    </header>
+    <button ng-click = "grabGif()" id = "randomButton">Grab dat jif</button>
+    <div ng-show = "buttonClicked" class = "randomDisplay">
+
+      <img ng-src = "{{randomGif.image_url}}" />
+
+
+    </div>
+
+
+  </body>
+</html>

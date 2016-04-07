@@ -1,0 +1,22 @@
+body {
+  background-color: lightGoldenRodYellow;
+  text-align: center;
+}
+
+h1 {
+  color: floralwhite;
+}
+
+header {
+  background-color: brown;
+}
+
+button {
+  background-color: goldenrod;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.highlighted {
+  text-decoration: underline;
+}
